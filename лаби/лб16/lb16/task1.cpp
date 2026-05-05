@@ -129,7 +129,7 @@ void binarySearch(vector<Student> &students) {
 
 if (found == -1) {
     cout << "Student with " << fixed
-    << setprecision(2) << target << " Not found." << endl;
+    << setprecision(2) << target << " Not found.\n";
     return;
 }
     int left = found, right = found;
